@@ -1,0 +1,223 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #B7B597; /* Light Olive Green */
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #254336; /* Dark Jungle Green */
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #6B8A7A; /* Sage Green */
+}
+
+.cta-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 0 10px;
+    transition: background-color 0.3s ease; /* Add smooth transition */
+}
+
+.primary {
+    background-color: #EE6C4D; /* Coral Red */
+}
+
+.secondary {
+    background-color: #3D405B; /* Dark Blue Grey */
+}
+
+/* Features Section */
+.features {
+    background-color: #B7B597; /* Light Olive Green */
+    padding: 100px 0;
+}
+
+.features h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #254336; /* Dark Jungle Green */
+}
+
+.feature-card {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature-card img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+
+/* Screenshots Section */
+.screenshots {
+    background-color: #6B8A7A; /* Sage Green */
+    padding: 100px 0;
+}
+
+.screenshot-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.screenshot-gallery img {
+    margin: 10px;
+    max-width: 300px;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background-color: #DAD3BE; /* Pastel Gray */
+    padding: 100px 0;
+}
+
+.testimonial-card {
+    margin-bottom: 40px;
+}
+
+/* Pricing Section */
+.pricing {
+    background-color: #254336; /* Dark Jungle Green */
+    padding: 100px 0;
+}
+
+.pricing h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #B7B597; /* Light Olive Green */
+}
+
+.pricing-table {
+    display: flex;
+    justify-content: center;
+}
+
+.plan {
+    border: 2px solid #3D405B; /* Dark Blue Grey */
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 10px;
+    flex-basis: 300px;
+}
+
+.plan h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #B7B597; /* Light Olive Green */
+}
+
+.plan p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color:#B7B597; /* Dark Jungle Green */
+}
+
+.plan ul {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.plan ul li {
+    margin-bottom: 10px;
+}
+
+/* Contact/Download Section */
+.contact-download {
+    background-color: #254336; /* Dark Jungle Green */
+    padding: 100px 0;
+    color: #DAD3BE; /* Pastel Gray */
+    text-align: center;
+}
+
+.contact-download h2 {
+    margin-bottom: 40px;
+    color: #DAD3BE; /* Pastel Gray */
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.download-links {
+    margin-top: 20px;
+}
+
+/* Footer Section */
+footer {
+    background-color: #B7B597; /* Light Olive Green */
+    color: #254336; /* Dark Jungle Green */
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Add hover effect for buttons */
+.btn:hover {
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+.primary:hover {
+    background-color: #FF6F61; /* Lighter Coral Red */
+}
+
+.secondary:hover {
+    background-color: #4A4E69; /* Lighter Dark Blue Grey */
+}
+
+/* Styles for App Logo */
+.app-logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    max-width: 100px; /* Adjust the size as needed */
+}
+
+/* Adjust Hero Content Position */
+.hero-content {
+    padding-left: 120px; /* Adjust for logo width and spacing */
+}
+
+p{
+    color: black;
+}

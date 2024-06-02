@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your App Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <img src="https://internshala-uploads.internshala.com/logo/f1jz1740xkn-5430.jpeg" alt="Your App Logo" class="app-logo">
+            <h1>"Batch: Retail Reinvented for Direct Engagement & Authenticity"</h1>
+            <p>Batch is a brand first disruptive technology enabling direct to consumer engagement, securing product authenticity and driving improved margins.</p>
+            <div class="cta-buttons">
+                <a href="#" class="btn primary">Join Now</a>
+                <a href="#" class="btn secondary">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2>Main Features</h2>
+            <!-- Feature Cards -->
+            <div class="feature-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9gSW3x98_hl7R2hl_nR5YcAwtmQ_68HCq4Q&s">
+                <br>
+                
+                <p>As a Front End Development intern at our Batch System company, you will have the opportunity to work on cutting-edge projects and gain invaluable hands-on experience. You will be an integral part of our dynamic team, collaborating with experienced developers to bring innovative solutions to life. Your passion for JavaScript and desire to learn and grow in a fast-paced environment will be key to your success in this role.</p>
+            </div>
+            <!-- Repeat for other features -->
+        </div>
+    </section>
+
+    <!-- Screenshots/Gallery Section -->
+    <section class="screenshots" >
+        <div class="container">
+            <h2>Friendly Work Environment</h2>
+            <br>
+            <!-- Image Gallery -->
+            <div class="screenshot-gallery">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYV4AIe919-3i7AhuAbxHT8xyfHq0GVIKjmA&s" >
+                <!-- Repeat for other screenshots -->
+            </div>
+        </div>
+        <!-- Lightbox Overlay -->
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <h2>What Users Say</h2>
+            <!-- Testimonial Cards -->
+            <div class="testimonial-card">
+                <br>
+                <blockquote>
+                    As an employee at Batch System I can grow my skills which will help in my self growth.
+                </blockquote>
+                <br>
+                <cite>- An employee of Batch System </cite>
+                <br>
+                <br>
+                <blockquote> I'm dedicated to reshaping retail through tech-driven direct engagement, ensuring authenticity, and fostering exceptional consumer trust and experiences.</blockquote>
+                <br>
+                <cite>- CEO of Company</cite>
+            </div>
+            <!-- Repeat for other testimonials -->
+        </div>
+    </section>
+
+    <!-- Pricing Plans Section -->
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <h2>Pricing Plans</h2>
+            <!-- Pricing Tables -->
+            <div class="pricing-table">
+                <!-- Pricing Plan 1 -->
+                <div class="plan">
+                    <h3>Basic</h3>
+                    <p>$40/month</p>
+                    <ul>
+                        <li>Cutting-edge Projects</li>
+                        <li>Hands-on Experience</li>
+                        <li>Dynamic Team Collaboration</li>
+                        <li>Innovation and Creativity</li>
+                        <li>Continuous Learning</li>
+                        <li>Problem-Solving</li>
+                        <li>Impactful Contributions</li>
+                        <!-- Include features of this plan -->
+                    </ul>
+                    <a href="#" class="btn primary">Sign Up</a>
+                </div>
+                <!-- Repeat for other plans -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact/Download Section -->
+    <section class="contact-download" id="contact-download">
+        <div class="container">
+            <h2>Contact Us or Sign Up</h2>
+            <div class="contact-form">
+                <form action="#" method="post">
+                    <!-- Include form fields -->
+                </form>
+            </div>
+            <div class="download-links">
+                <a href="#" class="btn primary">Download on the App Store</a>
+                <a href="#" class="btn secondary">Get it on Google Play</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Your App. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Lightbox -->
+    <script>
+        // Open Lightbox
+        const screenshots = document.querySelectorAll('.screenshot');
+        const overlay = document.getElementById('overlay');
+
+        screenshots.forEach(screenshot => {
+            screenshot.addEventListener('click', () => {
+                const imgSrc = screenshot.getAttribute('src');
+                const lightboxImg = document.querySelector('.lightbox-img');
+                lightboxImg.setAttribute('src', imgSrc);
+                overlay.style.display = 'block';
+            });
+        });
+
+        // Close Lightbox
+        function closeLightbox() {
+            const overlay = document.getElementById('overlay');
+            overlay.style.display = 'none';
+        }
+    </script>
+</body>
+</html>
